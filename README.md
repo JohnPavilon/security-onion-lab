@@ -1,32 +1,28 @@
 # 🛡️ Security Onion Lab – Mini SOC en VM
 
-Este repositorio documenta la instalación y configuración de **Security Onion**, una distribución basada en Ubuntu diseñada para monitoreo, detección y respuesta a incidentes.  
-El objetivo es demostrar habilidades como **analista SOC N1**, desde la instalación hasta la investigación de alertas.
+Este repositorio documenta la instalación, configuración y uso de **Security Onion** en un laboratorio casero.  
+El objetivo es mostrar habilidades prácticas como **Analista SOC Nivel 1**, enfocadas en monitoreo, análisis de alertas y respuesta a incidentes.
 
-## 🔹 Objetivos
-- Instalar Security Onion en VirtualBox/VMware.
-- Configurar interfaces de administración y monitoreo.
-- Generar tráfico sospechoso (Nmap, testmyids, Metasploitable).
-- Analizar y clasificar alertas en el SOC.
-- Documentar el flujo de trabajo de un analista SOC N1.
+## 📂 Estructura del proyecto
+- `setup/` → Instalación y configuración paso a paso.
+- `usage/` → Uso del SOC: generación de alertas, investigación y casos prácticos.
+- `screenshots/` → Evidencia visual del laboratorio.
+- `references.md` → Recursos y materiales de apoyo.
 
-## 🔹 Stack incluido
-Security Onion integra múltiples herramientas de seguridad:
-- **Suricata** (IDS/IPS)
-- **Zeek** (Network Security Monitoring)
-- **Wazuh** (Host-based IDS)
-- **Elastic + Kibana** (Visualización de logs)
-- **TheHive** (Gestión de casos/incidentes)
-- **Fleet/Osquery** (Monitoreo de endpoints)
+## 🎯 Objetivos
+- Montar un laboratorio con Security Onion en una VM.
+- Generar tráfico sospechoso y observar alertas en el SOC.
+- Documentar el flujo de investigación típico de un **SOC Analyst N1**.
+- Desarrollar un portafolio profesional en ciberseguridad.
 
-## 🔹 Screenshots
-📸 Capturas de ejemplo (instalación, dashboards, alertas) en `/screenshots`.
+## 🛠️ Stack incluido
+- **Suricata** → IDS/IPS
+- **Zeek** → Network Security Monitoring
+- **Wazuh** → HIDS
+- **Elastic + Kibana** → Visualización de logs
+- **TheHive** → Gestión de incidentes
+- **Fleet (osquery)** → Monitoreo de endpoints
 
-## 🔹 Cómo reproducir
-1. Clona este repositorio.
-2. Sigue los pasos en `/setup/`.
-3. Lanza tráfico sospechoso siguiendo `/usage/generar_alertas.md`.
-4. Investiga y documenta resultados.
-
-## 🔹 Autor
-👤 [Jonathan Josué Valencia Cruz] – Aspirante a Analista SOC N1 
+## 👤 Autor
+- Jonathan Valencia Cruz
+- 📫 LinkedIn | GitHub
